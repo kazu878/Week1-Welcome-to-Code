@@ -12,11 +12,10 @@ let nama = "kazu", peran = "penyihir";
 
 if (nama === "") {
     console.log("nama wajib diisi")
-} else {
-    if (peran === ""){
+} else if (peran === ""){
     console.log("pilih peranmu untuk memulai game:")
     } else {
-}
+
     switch(peran) {
         case "ksatria":
             console.log(`Halo ${nama} kamu dapat menyerang dengan senjatamu!`);
